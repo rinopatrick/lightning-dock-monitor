@@ -1,0 +1,152 @@
+{
+  "primary": {
+    "status": "ok",
+    "threshold_pct": 10.0,
+    "split": "first 80% train, last 20% chronological holdout",
+    "train_n": 2824,
+    "holdout_n": 706,
+    "train_start": "2015-12-15",
+    "train_end": "2024-07-13",
+    "holdout_start": "2024-07-14",
+    "holdout_end": "2026-08-01",
+    "model": {
+      "n": 706,
+      "positive_count": 90,
+      "negative_count": 616,
+      "prevalence_pct": 12.747875354107649,
+      "precision": 0.1337579617834395,
+      "recall": 0.7,
+      "f1": 0.22459893048128343,
+      "false_alarms_per_100": 66.23376623376623,
+      "average_precision": 0.15392521051284425
+    },
+    "momentum_baseline": {
+      "n": 706,
+      "positive_count": 90,
+      "negative_count": 616,
+      "prevalence_pct": 12.747875354107649,
+      "precision": 0.1696969696969697,
+      "recall": 0.3111111111111111,
+      "f1": 0.2196078431372549,
+      "false_alarms_per_100": 22.24025974025974,
+      "average_precision": null
+    },
+    "average_lead_days": 1.0042492917847026,
+    "feature_count": 110,
+    "decision_threshold": 0.5,
+    "baseline_note": "Alert when previous one-report output change is at most -5%."
+  },
+  "threshold_sensitivity": {
+    "5": {
+      "status": "ok",
+      "threshold_pct": 5.0,
+      "split": "first 80% train, last 20% chronological holdout",
+      "train_n": 2824,
+      "holdout_n": 706,
+      "train_start": "2015-12-15",
+      "train_end": "2024-07-13",
+      "holdout_start": "2024-07-14",
+      "holdout_end": "2026-08-01",
+      "model": {
+        "n": 706,
+        "positive_count": 166,
+        "negative_count": 540,
+        "prevalence_pct": 23.512747875354105,
+        "precision": 0.3244444444444444,
+        "recall": 0.4397590361445783,
+        "f1": 0.3734015345268542,
+        "false_alarms_per_100": 28.14814814814815,
+        "average_precision": 0.29520594240583625
+      },
+      "momentum_baseline": {
+        "n": 706,
+        "positive_count": 166,
+        "negative_count": 540,
+        "prevalence_pct": 23.512747875354105,
+        "precision": 0.28484848484848485,
+        "recall": 0.28313253012048195,
+        "f1": 0.283987915407855,
+        "false_alarms_per_100": 21.85185185185185,
+        "average_precision": null
+      },
+      "average_lead_days": 1.0042492917847026,
+      "feature_count": 110,
+      "decision_threshold": 0.5,
+      "baseline_note": "Alert when previous one-report output change is at most -5%."
+    },
+    "10": {
+      "status": "ok",
+      "threshold_pct": 10.0,
+      "split": "first 80% train, last 20% chronological holdout",
+      "train_n": 2824,
+      "holdout_n": 706,
+      "train_start": "2015-12-15",
+      "train_end": "2024-07-13",
+      "holdout_start": "2024-07-14",
+      "holdout_end": "2026-08-01",
+      "model": {
+        "n": 706,
+        "positive_count": 90,
+        "negative_count": 616,
+        "prevalence_pct": 12.747875354107649,
+        "precision": 0.1337579617834395,
+        "recall": 0.7,
+        "f1": 0.22459893048128343,
+        "false_alarms_per_100": 66.23376623376623,
+        "average_precision": 0.15392521051284425
+      },
+      "momentum_baseline": {
+        "n": 706,
+        "positive_count": 90,
+        "negative_count": 616,
+        "prevalence_pct": 12.747875354107649,
+        "precision": 0.1696969696969697,
+        "recall": 0.3111111111111111,
+        "f1": 0.2196078431372549,
+        "false_alarms_per_100": 22.24025974025974,
+        "average_precision": null
+      },
+      "average_lead_days": 1.0042492917847026,
+      "feature_count": 110,
+      "decision_threshold": 0.5,
+      "baseline_note": "Alert when previous one-report output change is at most -5%."
+    },
+    "15": {
+      "status": "ok",
+      "threshold_pct": 15.0,
+      "split": "first 80% train, last 20% chronological holdout",
+      "train_n": 2824,
+      "holdout_n": 706,
+      "train_start": "2015-12-15",
+      "train_end": "2024-07-13",
+      "holdout_start": "2024-07-14",
+      "holdout_end": "2026-08-01",
+      "model": {
+        "n": 706,
+        "positive_count": 51,
+        "negative_count": 655,
+        "prevalence_pct": 7.223796033994335,
+        "precision": 0.07228915662650602,
+        "recall": 0.9411764705882353,
+        "f1": 0.13426573426573427,
+        "false_alarms_per_100": 94.04580152671755,
+        "average_precision": 0.0677402937829189
+      },
+      "momentum_baseline": {
+        "n": 706,
+        "positive_count": 51,
+        "negative_count": 655,
+        "prevalence_pct": 7.223796033994335,
+        "precision": 0.1393939393939394,
+        "recall": 0.45098039215686275,
+        "f1": 0.21296296296296297,
+        "false_alarms_per_100": 21.679389312977097,
+        "average_precision": null
+      },
+      "average_lead_days": 1.0042492917847026,
+      "feature_count": 110,
+      "decision_threshold": 0.5,
+      "baseline_note": "Alert when previous one-report output change is at most -5%."
+    }
+  }
+}
